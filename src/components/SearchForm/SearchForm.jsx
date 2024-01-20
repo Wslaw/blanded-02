@@ -17,7 +17,6 @@ export class SearchForm extends Component {
     this.setState({ search: e.target.value });
   };
   render() {
-    console.log(this.state.search)
     return (
       <SearchFormStyled onSubmit={this.onSubmit}>
         <FormBtn type="submit">
